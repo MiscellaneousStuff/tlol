@@ -16,7 +16,7 @@ and enter the name of the decompressed file.
 
 ### Patch 11.21 Replay Database
 
-This database contains 72 early game surrenders with every single game
+This database contains 191 early game surrenders with every single game
 object within the game recorded 4 times a second (4 observations a
 second). The actions of each champion can also be inferred as the
 observations per second is high enough and because the ID's of
