@@ -28,6 +28,7 @@ methods but it could also be used as a springboard for offline
 reinforcement learning techniques as well.
 
 Compressed Filename:   `early_surrenders.7z`
+
 Decompressed Filename: `early_surrenders.db`
 
 This database is roughly 175MB and is stored on Google Drive
@@ -40,6 +41,7 @@ Enter `EUW1-5270795542.rofl.json` after compressing the replay file
 into the notebook to analyse this replay.
 
 Compressed Filename:   `EUW1-5270795542.rofl.7z`
+
 Decompressed Filename: `EUW1-5270795542.rofl.json`
 
 ### Patch 11.9 Replay
@@ -48,4 +50,5 @@ Enter `EUW1-5237530168.rofl.json` after compressing the replay file
 into the notebook to analyse this replay.
 
 Compressed Filename:   `EUW1-5237530168.rofl.json.7z`
+
 Decompressed Filename: `EUW1-5237530168.rofl.json`
