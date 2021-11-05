@@ -31,9 +31,9 @@ Compressed Filename:   `early_surrenders.7z`
 
 Decompressed Filename: `early_surrenders.db`
 
-This database is roughly 175MB and is stored on Google Drive
-instead of this repository.
-[Google Drive Link](https://drive.google.com/file/d/1-r7pWwvi49r9vvU-xX4BkajVwfZrD0r_/view?usp=sharing)
+This database is roughly 455MB (and 6GB uncompressed)
+and is stored on Google Drive instead of this repository.
+[Google Drive Link](https://drive.google.com/file/d/1wcOPYvQ3j3vnoA3TN_fk_n5LI6CJ_GU3/view?usp=sharing)
 
 ### Patch 11.10 Replay
 
