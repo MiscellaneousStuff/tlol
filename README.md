@@ -16,7 +16,10 @@ and enter the name of the decompressed file.
 
 ### Patch 11.21 Replay Database
 
-This database contains 191 early game surrenders with every single game
+#### 191-EarlyFF Dataset
+
+This database contains 191 early game surrenders (3.5 minute surrenders)
+with every single game
 object within the game recorded 4 times a second (4 observations a
 second). The actions of each champion can also be inferred as the
 observations per second is high enough and because the ID's of
@@ -48,10 +51,31 @@ Decompressed Filename: `early_surrenders.db`
 
 This database is roughly 455MB (and 6GB uncompressed)
 and is stored on Google Drive instead of this repository.
+NOTE: Roughly half of the size of the database are indexes.
 [Google Drive Link](https://drive.google.com/file/d/1wcOPYvQ3j3vnoA3TN_fk_n5LI6CJ_GU3/view?usp=sharing)
 
-1000 game miss fortune database:
+#### 1k-MFLongevity Dataset
 
+This database contains 987 early game surrenders with every single
+game object within the game recorded 4 times a second (4 observations
+a second). Just as above, actions can be inferred by checking object
+names and net_ids (Network ID, Riot uses this to uniquely identify
+a game object within a League of Legends game hosted on their server).
+This dataset is better suited to actually creating a deep learning
+bot as it contains roughly 1,185,600 frames for Miss Fortune. The
+dataset was curated from a larger dataset by picking the games
+where the Miss Fortune player lived the longest. This feature had
+the best correlation with winning (64.4% win rate for this dataset).
+As the dataset overall has a 64.4% win rate in roughly Diamond II,
+this ensures the quality of the gameplay is as high as possible
+without creating a more complicated system to determine the
+quality of the gameplay.
+
+This database is roughly 2.04GB (and 25.3GB uncompressed)
+and is stored on Google Drive instead of this repository.
+NOTE: This database is a 7-zip archive with a separate
+SQLite database for each replay. None of the databases
+contain indexes.
 [Google Drive Link](https://drive.google.com/file/d/1wSRmOP0kzYniPn9FBHAl8AvfIR6QkA66/view?usp=sharing)
 
 ### Patch 11.10 Replay
