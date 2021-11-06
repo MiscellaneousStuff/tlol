@@ -27,6 +27,21 @@ deep learning agent. Obviously this will favour supervised learning
 methods but it could also be used as a springboard for offline
 reinforcement learning techniques as well.
 
+This table shows the top 10 champion occurrences within the dataset.
+
+| Champion     | No. |
+| ------------ | --- |
+| Nami         | 116 |
+| Miss Fortune | 103 |
+| Lucian       | 61  |
+| Khazix       | 36  |
+| Viego        | 35  |
+| Lux          | 34  |
+| Jhin         | 32  |
+| Yone         | 30  |
+| Camille      | 29  |
+| Graves       | 29  |
+
 Compressed Filename:   `early_surrenders.7z`
 
 Decompressed Filename: `early_surrenders.db`
