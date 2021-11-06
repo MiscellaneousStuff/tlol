@@ -51,7 +51,9 @@ Decompressed Filename: `early_surrenders.db`
 
 This database is roughly 455MB (and 6GB uncompressed)
 and is stored on Google Drive instead of this repository.
+
 NOTE: Roughly half of the size of the database are indexes.
+
 [Google Drive Link](https://drive.google.com/file/d/1wcOPYvQ3j3vnoA3TN_fk_n5LI6CJ_GU3/view?usp=sharing)
 
 #### 1k-MFLongevity Dataset
@@ -73,9 +75,11 @@ quality of the gameplay.
 
 This database is roughly 2.04GB (and 25.3GB uncompressed)
 and is stored on Google Drive instead of this repository.
+
 NOTE: This database is a 7-zip archive with a separate
 SQLite database for each replay. None of the databases
 contain indexes.
+
 [Google Drive Link](https://drive.google.com/file/d/1wSRmOP0kzYniPn9FBHAl8AvfIR6QkA66/view?usp=sharing)
 
 ### Patch 11.10 Replay
