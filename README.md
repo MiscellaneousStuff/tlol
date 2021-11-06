@@ -58,7 +58,9 @@ and is stored on Google Drive instead of this repository.
 
 #### 1k-MFLongevity Dataset
 
-This database contains 987 early game surrenders with every single
+This database contains 987 early game replays (first 5 minutes of
+each game)
+with every single
 game object within the game recorded 4 times a second (4 observations
 a second). Just as above, actions can be inferred by checking object
 names and net_ids (Network ID, Riot uses this to uniquely identify
