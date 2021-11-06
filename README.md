@@ -50,6 +50,10 @@ This database is roughly 455MB (and 6GB uncompressed)
 and is stored on Google Drive instead of this repository.
 [Google Drive Link](https://drive.google.com/file/d/1wcOPYvQ3j3vnoA3TN_fk_n5LI6CJ_GU3/view?usp=sharing)
 
+1000 game miss fortune database:
+
+[Google Drive Link](https://drive.google.com/file/d/1wSRmOP0kzYniPn9FBHAl8AvfIR6QkA66/view?usp=sharing)
+
 ### Patch 11.10 Replay
 
 Enter `EUW1-5270795542.rofl.json` after compressing the replay file
