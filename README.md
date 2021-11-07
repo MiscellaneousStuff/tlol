@@ -92,7 +92,7 @@ contain indexes.`
 
 ### Patch 11.10 Replay
 
-Enter `EUW1-5270795542.rofl.json` after compressing the replay file
+Enter `EUW1-5270795542.rofl.json` after decompressing the replay file
 into the notebook to analyse this replay.
 
 Compressed Filename:   `EUW1-5270795542.rofl.7z`
@@ -101,7 +101,7 @@ Decompressed Filename: `EUW1-5270795542.rofl.json`
 
 ### Patch 11.9 Replay
 
-Enter `EUW1-5237530168.rofl.json` after compressing the replay file
+Enter `EUW1-5237530168.rofl.json` after decompressing the replay file
 into the notebook to analyse this replay.
 
 Compressed Filename:   `EUW1-5237530168.rofl.json.7z`
