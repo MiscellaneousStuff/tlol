@@ -45,7 +45,7 @@ This table shows the top 10 champion occurrences within the dataset.
 | Camille      | 29  |
 | Graves       | 29  |
 
-Compressed Filename:   `early_surrenders.7z`
+Compressed Filename:   `191-EarlyFF.7z`
 
 Decompressed Filename: `early_surrenders.db`
 
@@ -74,6 +74,10 @@ As the dataset overall has a 64.4% win rate in roughly Diamond II,
 this ensures the quality of the gameplay is as high as possible
 without creating a more complicated system to determine the
 quality of the gameplay.
+
+Compressed Filename:   `1k-MFLongevity.7z`
+
+Decompressed Filename: For each file in archive => `EUW1-{game_id}.db`
 
 This database is roughly 2.04GB (and 25.3GB uncompressed)
 and is stored on Google Drive instead of this repository.
