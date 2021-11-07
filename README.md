@@ -58,13 +58,13 @@ and is stored on Google Drive instead of this repository.
 
 #### MFLongevity Datasets
 
-These database contains 987 and 728 games respectively, early game replays
+These databases contain 987 and 728 games respectively. Both databases contain early game replays
 (first 5 minutes of each game) with every single
 game object within the game recorded 4 times a second (4 observations
 a second). Just as above, actions can be inferred by checking object
 names and net_ids (Network ID, Riot uses this to uniquely identify
 a game object within a League of Legends game hosted on their server).
-This dataset is better suited to actually creating a deep learning
+The `1k-MFLongevity` is better suited to actually creating a deep learning
 bot as it contains roughly 1,185,600 frames for Miss Fortune. The
 dataset was curated from a larger dataset by picking the games
 where the Miss Fortune player lived the longest. This feature had
@@ -86,6 +86,7 @@ SQLite database for each replay. None of the databases
 contain indexes.`
 
 [1k-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1wSRmOP0kzYniPn9FBHAl8AvfIR6QkA66/view?usp=sharing)
+
 [750-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1Isaz3kd2SOmcdr4hrtiucM5pmXFK6YL6/view?usp=sharing)
 
 ### Patch 11.10 Replay
