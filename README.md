@@ -56,11 +56,10 @@ and is stored on Google Drive instead of this repository.
 
 [Google Drive Link](https://drive.google.com/file/d/1wcOPYvQ3j3vnoA3TN_fk_n5LI6CJ_GU3/view?usp=sharing)
 
-#### 1k-MFLongevity Dataset
+#### MFLongevity Datasets
 
-This database contains 987 early game replays (first 5 minutes of
-each game)
-with every single
+These database contains 987 and 728 games respectively, early game replays
+(first 5 minutes of each game) with every single
 game object within the game recorded 4 times a second (4 observations
 a second). Just as above, actions can be inferred by checking object
 names and net_ids (Network ID, Riot uses this to uniquely identify
@@ -75,18 +74,19 @@ this ensures the quality of the gameplay is as high as possible
 without creating a more complicated system to determine the
 quality of the gameplay.
 
-Compressed Filename:   `1k-MFLongevity.7z`
+Compressed Filename(s):   `1k-MFLongevity.7z`, `750-MFLongevity.7z`
 
-Decompressed Filename: For each file in archive => `EUW1-{game_id}.db`
+Decompressed Filename(s): For each file in archive => `EUW1-{game_id}.db`
 
-This database is roughly 2.04GB (and 25.3GB uncompressed)
+The databases are roughly 2.04GB and 1.54GB (25.3GB and 19.2GB uncompressed, respectively)
 and is stored on Google Drive instead of this repository.
 
 `NOTE: This database is a 7-zip archive with a separate
 SQLite database for each replay. None of the databases
 contain indexes.`
 
-[Google Drive Link](https://drive.google.com/file/d/1wSRmOP0kzYniPn9FBHAl8AvfIR6QkA66/view?usp=sharing)
+[1k-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1wSRmOP0kzYniPn9FBHAl8AvfIR6QkA66/view?usp=sharing)
+[750-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1Isaz3kd2SOmcdr4hrtiucM5pmXFK6YL6/view?usp=sharing)
 
 ### Patch 11.10 Replay
 
