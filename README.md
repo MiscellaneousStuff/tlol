@@ -58,7 +58,8 @@ and is stored on Google Drive instead of this repository.
 
 #### MFLongevity Datasets
 
-These databases contain 987 and 728 games respectively. Both databases contain early game replays
+These databases contain 987 and 728 games respectively, for a total of 1715 early games.
+Both databases contain early game replays
 (first 5 minutes of each game) with every single
 game object within the game recorded 4 times a second (4 observations
 a second). Just as above, actions can be inferred by checking object
