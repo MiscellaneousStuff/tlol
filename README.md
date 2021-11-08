@@ -3,8 +3,14 @@
 ## About
 
 League of Legends Season 11 replay analysis.
+This repo is split into two main parts:
+
+1. Patch 11.9 and Patch 11.10 single game analysis. This is referred to as `TLoL-Prototyping`
+2. Patch 11.21 multi-early game analysis (Mainly focusing on Miss Fortune). This is referred to as `TLoL-Pilot`
 
 ## Usage
+
+### TLoL-Prototyping
 
 To use the included notebook, you need to decompress the relevant replay using
 7-Zip. Be warned, each replay file is around 1GB because of the inefficient
@@ -12,9 +18,13 @@ way the replay files were generated. Then, load up the *.ipynb notebook file
 using either Jupyter Notebook, Google Colab or another notebook application
 and enter the name of the decompressed file.
 
-## Replay File Info
+### TLoL-Pilot
 
-### Patch 11.21 Replay Database
+The included notebook 
+
+## Replay Files Info
+
+### TLoL-Pilot (Patch 11.21 Replay Databases)
 
 #### 191-EarlyFF Dataset
 
@@ -58,13 +68,25 @@ and is stored on Google Drive instead of this repository.
 
 #### MFLongevity Datasets
 
-These databases contain 987 and 728 games respectively, for a total of 1715 early games.
+These databases contain 987, 728 and 773 games respectively, for a total of 2488 early games.
 Both databases contain early game replays
 (first 5 minutes of each game) with every single
 game object within the game recorded 4 times a second (4 observations
 a second). Just as above, actions can be inferred by checking object
 names and net_ids (Network ID, Riot uses this to uniquely identify
 a game object within a League of Legends game hosted on their server).
+
+Together, this dataset has around 2,985,600 frames for Miss Fortune and several
+million for many other champions as well. The
+dataset was curated from a larger dataset by picking the games
+where the Miss Fortune player lived the longest. This feature had
+the best correlation with winning (64.4% win rate for this dataset).
+As the dataset overall has a 64.4% win rate in roughly Diamond II,
+this ensures the quality of the gameplay is as high as possible
+without creating a more complicated system to determine the
+quality of the gameplay.
+
+<!--
 The `1k-MFLongevity` is better suited to actually creating a deep learning
 bot as it contains roughly 1,185,600 frames for Miss Fortune. The
 dataset was curated from a larger dataset by picking the games
@@ -74,12 +96,13 @@ As the dataset overall has a 64.4% win rate in roughly Diamond II,
 this ensures the quality of the gameplay is as high as possible
 without creating a more complicated system to determine the
 quality of the gameplay.
+-->
 
-Compressed Filename(s):   `1k-MFLongevity.7z`, `750-MFLongevity.7z`
+Compressed Filename(s):   `1k-MFLongevity.7z`, `750-MFLongevity.7z`, `800-MFLongevity.7z`
 
 Decompressed Filename(s): For each file in archive => `EUW1-{game_id}.db`
 
-The databases are roughly 2.04GB and 1.54GB (25.3GB and 19.2GB uncompressed, respectively)
+The databases are roughly 2.04GB, 1.54GB and 1.63GB (25.3GB, 19.2GB and 20.5GB uncompressed, respectively)
 and is stored on Google Drive instead of this repository.
 
 `NOTE: This database is a 7-zip archive with a separate
@@ -90,7 +113,11 @@ contain indexes.`
 
 [750-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1Isaz3kd2SOmcdr4hrtiucM5pmXFK6YL6/view?usp=sharing)
 
-### Patch 11.10 Replay
+[800-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1SFKdVKpLS9Dg_v2kzZaZL_s5MJ5t4UZ1/view?usp=sharing)
+
+### TLoL-Prototyping
+
+#### Patch 11.10 Replay
 
 Enter `EUW1-5270795542.rofl.json` after decompressing the replay file
 into the notebook to analyse this replay.
@@ -99,7 +126,7 @@ Compressed Filename:   `EUW1-5270795542.rofl.7z`
 
 Decompressed Filename: `EUW1-5270795542.rofl.json`
 
-### Patch 11.9 Replay
+#### Patch 11.9 Replay
 
 Enter `EUW1-5237530168.rofl.json` after decompressing the replay file
 into the notebook to analyse this replay.
