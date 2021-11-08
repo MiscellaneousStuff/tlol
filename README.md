@@ -20,7 +20,11 @@ and enter the name of the decompressed file.
 
 ### TLoL-Pilot
 
-The included notebook 
+The included notebook demonstrates how to download one of the datasets from
+Google Drive and how to then parse the data for reinforcement learning. This
+will include a basic ML agent in the future.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MiscellaneousStuff/tlol/blob/main/League_of_Legends_Patch_11_21_(Reinforcement_Learning).ipynb)
 
 ## Replay Files Info
 
