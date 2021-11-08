@@ -3,8 +3,14 @@
 ## About
 
 League of Legends Season 11 replay analysis.
+This repo is split into two main parts:
+
+1. Patch 11.9 and Patch 11.10 single game analysis. This is referred to as `TLoL-Prototyping`
+2. Patch 11.21 multi-early game analysis (Mainly focusing on Miss Fortune). This is referred to as `TLoL-Pilot`
 
 ## Usage
+
+### TLoL-Prototyping
 
 To use the included notebook, you need to decompress the relevant replay using
 7-Zip. Be warned, each replay file is around 1GB because of the inefficient
@@ -12,9 +18,11 @@ way the replay files were generated. Then, load up the *.ipynb notebook file
 using either Jupyter Notebook, Google Colab or another notebook application
 and enter the name of the decompressed file.
 
-## Replay File Info
+### TLoL-Pilot
 
-### Patch 11.21 Replay Database
+## Replay Files Info
+
+### TLoL-Pilot (Patch 11.21 Replay Databases)
 
 #### 191-EarlyFF Dataset
 
@@ -90,7 +98,9 @@ contain indexes.`
 
 [750-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1Isaz3kd2SOmcdr4hrtiucM5pmXFK6YL6/view?usp=sharing)
 
-### Patch 11.10 Replay
+### TLoL-Prototyping
+
+#### Patch 11.10 Replay
 
 Enter `EUW1-5270795542.rofl.json` after decompressing the replay file
 into the notebook to analyse this replay.
@@ -99,7 +109,7 @@ Compressed Filename:   `EUW1-5270795542.rofl.7z`
 
 Decompressed Filename: `EUW1-5270795542.rofl.json`
 
-### Patch 11.9 Replay
+#### Patch 11.9 Replay
 
 Enter `EUW1-5237530168.rofl.json` after decompressing the replay file
 into the notebook to analyse this replay.
