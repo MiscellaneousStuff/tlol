@@ -18,6 +18,8 @@ way the replay files were generated. Then, load up the *.ipynb notebook file
 using either Jupyter Notebook, Google Colab or another notebook application
 and enter the name of the decompressed file.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MiscellaneousStuff/tlol/blob/main/tlol-replay_analysis.ipynb)
+
 ### TLoL-Pilot
 
 The included notebook demonstrates how to download one of the datasets from
