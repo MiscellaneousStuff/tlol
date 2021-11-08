@@ -111,7 +111,7 @@ Decompressed Filename(s): For each file in archive => `EUW1-{game_id}.db`
 The databases are roughly 2.04GB, 1.54GB and 1.63GB (25.3GB, 19.2GB and 20.5GB uncompressed, respectively)
 and is stored on Google Drive instead of this repository.
 
-`NOTE: This database is a 7-zip archive with a separate
+`NOTE: These databases are 7-zip archives with a separate
 SQLite database for each replay. None of the databases
 contain indexes.`
 
