@@ -32,6 +32,10 @@ will include a basic ML agent in the future.
 
 ### TLoL-Pilot (Patch 11.21 Replay Databases)
 
+For a full explanation for how these datasets were generated, refer
+to the following [blog post](https://miscellaneousstuff.github.io/project/2021/11/19/tlol-part-6-dataset-generation.html)
+for very in-depth information.
+
 #### 191-EarlyFF Dataset
 
 This database contains 191 early game surrenders (3.5 minute surrenders)
