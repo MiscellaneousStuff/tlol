@@ -36,6 +36,9 @@ For a full explanation for how these datasets were generated, refer
 to the following [blog post](https://miscellaneousstuff.github.io/project/2021/11/19/tlol-part-6-dataset-generation.html)
 for very in-depth information.
 
+If you would like to create your own dataset, refer to the following
+[GitHub repo](https://github.com/MiscellaneousStuff/tlol-py).
+
 #### 191-EarlyFF Dataset
 
 This database contains 191 early game surrenders (3.5 minute surrenders)
