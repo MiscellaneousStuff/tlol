@@ -1,3 +1,12 @@
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=Mz7NbIgJqsc"
+       target="_blank">
+       <img src="http://img.youtube.com/vi/Mz7NbIgJqsc/0.jpg"
+            alt="League of Legends Deep Analysis - Setup and Extraction (Part 1)"
+            width="240" height="180" border="10" />
+    </a>
+</div>
+
 # TLoL
 
 ## About
