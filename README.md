@@ -16,6 +16,7 @@ This repo is split into two main parts:
 
 1. Patch 11.9 and Patch 11.10 single game analysis. This is referred to as `TLoL-Prototyping`
 2. Patch 11.21 multi-early game analysis (Mainly focusing on Miss Fortune). This is referred to as `TLoL-Pilot`
+3. Patch 12.2 multi-early game dataset built for reinforcement learning
 
 ## Usage
 
@@ -136,6 +137,30 @@ contain indexes.`
 [750-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1Isaz3kd2SOmcdr4hrtiucM5pmXFK6YL6/view?usp=sharing)
 
 [800-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1SFKdVKpLS9Dg_v2kzZaZL_s5MJ5t4UZ1/view?usp=sharing)
+
+#### Jinx Datasets
+
+This dataset is comprised of 833 early games of Jinx players from
+Challenger EUW from patch 12.2. Each replay has undergone a complex
+procedure to transform it into a format which is suitable for bulk
+analysis or directly training a reinforcement learning agent to
+play League of Legends (or at least for the first 5 minutes).
+
+In total this dataset contains almost 1,000,000 frames, which is
+comparable to ImageNet. This should be enough to at least
+experiment with basic Imitation Learning algorithms such as
+Behavioural Cloning, or perhaps
+other algorithms such as Generative Adversarial Imitation
+Learning (GAIL).
+
+The uncompressed archive is 889.8MB and the uncompressed folder
+is 7.7GB. This should be a manageable dataset for most researchers
+to experiment with.
+
+Compressed Filename(s):   `jinx_833_ml_db.zip`
+Decompressed Filename(s): `full_db/`, For Each file in archive => `EUW1-{game_id}_jinx_100.pkl`
+
+[833-JinxML - Google Drive Link](https://drive.google.com/file/d/1TixmBz2B00kTOPLivkSbfsyDbf1-qNvt/view?usp=sharing)
 
 ### TLoL-Prototyping
 
