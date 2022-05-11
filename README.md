@@ -163,6 +163,15 @@ Decompressed Filename(s): `full_db/`, For Each file in archive => `EUW1-{game_id
 
 [833-JinxML - Google Drive Link](https://drive.google.com/file/d/1TixmBz2B00kTOPLivkSbfsyDbf1-qNvt/view?usp=sharing)
 
+The table below contains useful metadata for this dataset:
+
+| Characteristic     | Value |
+| ------------ | --- |
+| Error Correction | 833 / 1,395 Successfully Converted |
+| Size         | 7.7GB |
+| Conversion Time | 90 minutes |
+| Frames       | Almost 1,000,000  |
+
 ### TLoL-Prototyping
 
 #### Patch 11.10 Replay
