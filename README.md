@@ -138,7 +138,7 @@ contain indexes.`
 
 [800-MFLongevity - Google Drive Link](https://drive.google.com/file/d/1SFKdVKpLS9Dg_v2kzZaZL_s5MJ5t4UZ1/view?usp=sharing)
 
-#### Jinx Datasets
+#### Jinx Dataset
 
 This dataset is comprised of 833 early games of Jinx players from
 Challenger EUW from patch 12.2. Each replay has undergone a complex
