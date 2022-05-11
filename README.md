@@ -171,6 +171,7 @@ The table below contains useful metadata for this dataset:
 | Size (Compressed, Full)        | 889MB, 7.7GB |
 | Conversion Time | 93 minutes |
 | Frames       | 1,189,786  |
+| Real-time Gameplay Hours | 68.25 hrs |
 
 ### TLoL-Prototyping
 
