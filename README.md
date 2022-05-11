@@ -155,7 +155,11 @@ Learning (GAIL).
 
 The uncompressed archive is 889.8MB and the uncompressed folder
 is 7.7GB. This should be a manageable dataset for most researchers
-to experiment with.
+to experiment with. All of the features in this dataset have
+been saved as `float16` instead of `float32` to halve the filesize.
+Fortunately, this also has virtually no impact on accuracy as
+every single variable in League of Legends doesn't need more
+than 16-bit floating point representation.
 
 Compressed Filename(s):   `jinx_833_ml_db.zip`
 
