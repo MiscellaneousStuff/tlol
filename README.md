@@ -146,7 +146,7 @@ procedure to transform it into a format which is suitable for bulk
 analysis or directly training a reinforcement learning agent to
 play League of Legends (or at least for the first 5 minutes).
 
-In total this dataset contains almost 1,189,786 frames, which is
+In total this dataset contains 1,189,786 frames, which is
 comparable to ImageNet. This should be enough to at least
 experiment with basic Imitation Learning algorithms such as
 Behavioural Cloning, or perhaps
@@ -170,7 +170,7 @@ The table below contains useful metadata for this dataset:
 | Error Correction (& error rate) | 833 / 1,395 Successful (40.29%) |
 | Size         | 7.7GB |
 | Conversion Time | 90 minutes |
-| Frames       | Almost 1,189,786  |
+| Frames       | 1,189,786  |
 
 ### TLoL-Prototyping
 
