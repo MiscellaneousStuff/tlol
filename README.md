@@ -168,7 +168,7 @@ The table below contains useful metadata for this dataset:
 | Characteristic     | Value |
 | ------------ | --- |
 | Error Correction (& error rate) | 833 / 1,395 Successful (59.71%) |
-| Size         | 7.7GB |
+| Size (Compressed, Full)        | 889MB, 7.7GB |
 | Conversion Time | 93 minutes |
 | Frames       | 1,189,786  |
 
