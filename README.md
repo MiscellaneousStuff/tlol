@@ -166,6 +166,7 @@ Compressed Filename(s):   `jinx_833_ml_db.zip`
 Decompressed Filename(s): `full_db/`, For Each file in archive => `EUW1-{game_id}_jinx_100.pkl`
 
 [833-JinxML - Google Drive Link](https://drive.google.com/file/d/1TixmBz2B00kTOPLivkSbfsyDbf1-qNvt/view?usp=sharing)
+[833-JinxML Raw - Google Drive Link](https://drive.google.com/file/d/19SAtYSrY8j8vwox4Lu765CJCFUrX0ke_/view?usp=sharing)
 
 The table below contains useful metadata for this dataset:
 
