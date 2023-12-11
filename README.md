@@ -12,11 +12,12 @@
 ## About
 
 League of Legends Season 11 replay analysis.
-This repo is split into three main parts:
+This repo is split into four main parts:
 
 1. Patch 11.9 and Patch 11.10 single game analysis. This is referred to as `TLoL-Prototyping`
 2. Patch 11.21 multi-early game analysis (Mainly focusing on Miss Fortune). This is referred to as `TLoL-Pilot`
 3. Patch 12.2 multi-early game dataset built for reinforcement learning
+4. Patch 13.23 early game Ezreal dataset built for supervised learning
 
 ## Usage
 
