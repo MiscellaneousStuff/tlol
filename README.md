@@ -179,7 +179,7 @@ The table below contains useful metadata for this dataset:
 | Frames       | 1,189,786  |
 | Real-time Gameplay Hours | 68.25 hrs |
 
-### Ezreal Dataset
+### Ezreal Dataset (Patch 13.23)
 
 This dataset is comprised of nearly 10,000 Ezreal early games. This will
 be used as the pilot study for training an agent to play Ezreal using supervised learning.
