@@ -179,6 +179,15 @@ The table below contains useful metadata for this dataset:
 | Frames       | 1,189,786  |
 | Real-time Gameplay Hours | 68.25 hrs |
 
+### Ezreal Dataset
+
+This dataset is comprised of nearly 10,000 Ezreal early games. This will
+be used as the pilot study for training an agent to play Ezreal using supervised learning.
+There are roughly 5.4 million frames in this dataset which should be adequate to build a simple
+bot with very basic performance. Especially when using the methods from the JueWu-SL paper.
+
+[Google Drive](https://drive.google.com/file/d/1EXjJD1h9GNN4A8e7SaZB0HhRXcdmHeho/view?usp=sharing).
+
 ### TLoL-Prototyping
 
 #### Patch 11.10 Replay
