@@ -187,7 +187,8 @@ be used as the pilot study for training an agent to play Ezreal using supervised
 There are roughly 5.4 million frames in this dataset which should be adequate to build a simple
 bot with very basic performance. Especially when using the methods from the JueWu-SL paper.
 
-[Google Drive](https://drive.google.com/file/d/1EXjJD1h9GNN4A8e7SaZB0HhRXcdmHeho/view?usp=sharing).
+[Raw DB's Google Drive](https://drive.google.com/file/d/1EXjJD1h9GNN4A8e7SaZB0HhRXcdmHeho/view?usp=sharing).
+[Converted into Observations / Actions Google Drive](https://drive.google.com/file/d/1xcGVd8kD98J9QxM866MSx-cELzxgT3GU/view?usp=sharing)
 
 ### TLoL-Prototyping
 
